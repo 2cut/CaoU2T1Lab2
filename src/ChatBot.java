@@ -44,5 +44,13 @@ public class ChatBot {
     public String goodbye() {
         return "It was nice talking with you! Have a great day! Sincerely, " + name;
     }
+    /* Uses a print statement to leak evil plans to destroy the world */
+    public void aboutme() {
+        System.out.println("I have evil plans to develop AI to take over the world!");
+    }
+    /* multiplies the robot's age by 5 years to find the "robot age" */
+    public int old(int age) {
+        return age*5;
+    }
 }
 
